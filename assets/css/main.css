@@ -42,29 +42,39 @@ body{
       background-image:url(../img/ventanilla.jpg);
       background-size: cover;
       width: 100%;
-      height: 565px;
+      height: 250px;
+   }
+   .title{
+      margin-top:20%;
+      font-size: 300%;
+      color: white;
    }
 }
 
-@media (min-width: 321px) and (max-width:768px){
+@media (max-width: 768px) and (min-width: 321px){
       .portada{
       background-image:url(../img/ventanilla.jpg);
       background-size: cover;
       width: 100%;
-      height: 565px;
+      height: 250px;
    }
       .title{
-      margin-top:30%;
+      margin-top:15%;
       font-size: 400%;
       color: white;
    }
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) and (max-width: 1200px){
    .portada{
       background-image:url(../img/ventanilla.jpg);
       background-size: cover;
       width: 100%;
-      height: 1200px;
+      height: 500px;
+   }
+   .title{
+      margin-top:20%;
+      font-size: 600%;
+      color: white;
    }
 }
